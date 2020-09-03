@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="lblGastoAno" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="btnEconomia" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="168" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblGastoMes" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfQtdLamp" alignment="0" min="-2" pref="93" max="-2" attributes="0"/>
+                  <Component id="txtfQtdWatts" alignment="0" min="-2" pref="93" max="-2" attributes="0"/>
+                  <Component id="lblQtdWatts" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtfDiasMes" min="-2" pref="64" max="-2" attributes="0"/>
+                          <Component id="lblAcessasHoras" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="388" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblWattsMes" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="btnWatts" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lblWatts" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblAcessasMes" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfHorasDias" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtfAno" alignment="0" min="-2" pref="93" max="-2" attributes="0"/>
+                          <Component id="lblQtdLamp" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="207" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="lblTitleAno" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="lblEconomiaAno" min="-2" pref="133" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="1" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="lblTitleMes" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="lblEconomiaMes" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="txtfMes" min="-2" pref="93" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblEconomia" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="lblGastoMes" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtfMes" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblEconomia" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblGastoAno" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnEconomia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtfAno" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblTitleMes" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblEconomiaMes" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblQtdLamp" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTitleAno" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblEconomiaAno" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="txtfQtdLamp" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="lblQtdWatts" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="txtfQtdWatts" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="lblAcessasMes" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtfDiasMes" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="lblAcessasHoras" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtfHorasDias" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblWattsMes" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnWatts" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblWatts" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="7" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblGastoMes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quanto sua empresa gasta com energia em um m&#xea;s?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfMes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valor"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtfMesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblGastoAno">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quanto sua empresa gasta com energia em um ano?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfAno">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEconomia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clique para saber o quanto sua empresa vai economizar: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnEconomia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Economia"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEconomiaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitleMes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valor da economia por m&#xea;s:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQtdLamp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quantas l&#xe2;mpadas sua empresa possui?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfQtdLamp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quantidade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQtdWatts">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quantos Watts as l&#xe2;mpadas possuem?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfQtdWatts">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Watts"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitleAno">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valor da economia por ano:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEconomiaMes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEconomiaAno">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAcessasMes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quantos dias no m&#xea;s suas l&#xe2;mpadas ficam acessas?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfDiasMes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dias/M&#xea;s"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAcessasHoras">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quantas horas no dia suas l&#xe2;mpadas ficam acessar?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfHorasDias">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Horas/Dia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblWattsMes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clique para saber quantos Watts voc&#xea; utiliza por m&#xea;s:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnWatts">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clique"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnWattsActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblWatts">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0 Watts/m&#xea;s"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
