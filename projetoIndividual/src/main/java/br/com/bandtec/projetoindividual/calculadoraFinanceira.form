@@ -233,7 +233,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblAcessasMes">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Quantos dias no m&#xea;s suas l&#xe2;mpadas ficam acessas?"/>
+        <Property name="text" type="java.lang.String" value="Quantos dias por m&#xea;s suas l&#xe2;mpadas ficam acessas?"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtfDiasMes">
@@ -243,7 +243,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblAcessasHoras">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Quantas horas no dia suas l&#xe2;mpadas ficam acessar?"/>
+        <Property name="text" type="java.lang.String" value="Quantas horas por dia suas l&#xe2;mpadas ficam acessar?"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtfHorasDias">

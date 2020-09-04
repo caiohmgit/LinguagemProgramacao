@@ -90,11 +90,11 @@ public class calculadoraFinanceira extends javax.swing.JFrame {
 
         lblEconomiaAno.setText("0");
 
-        lblAcessasMes.setText("Quantos dias no mês suas lâmpadas ficam acessas?");
+        lblAcessasMes.setText("Quantos dias por mês suas lâmpadas ficam acessas?");
 
         txtfDiasMes.setText("Dias/Mês");
 
-        lblAcessasHoras.setText("Quantas horas no dia suas lâmpadas ficam acessar?");
+        lblAcessasHoras.setText("Quantas horas por dia suas lâmpadas ficam acessar?");
 
         txtfHorasDias.setText("Horas/Dia");
 
